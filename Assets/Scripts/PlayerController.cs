@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour
 
     void RemoveFocus ()
     {
-        if (focus != null);
+        if (focus != null)
             focus.OnDefocused();
 
         focus = null;
