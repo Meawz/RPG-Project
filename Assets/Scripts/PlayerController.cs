@@ -17,6 +17,7 @@ public class PlayerController : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
+
         motor = GetComponent<PlayerMotor>();
     }
 
