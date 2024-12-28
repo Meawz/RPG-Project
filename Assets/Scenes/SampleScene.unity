@@ -2843,6 +2843,7 @@ GameObject:
   - component: {fileID: 1269203659}
   - component: {fileID: 1269203662}
   - component: {fileID: 1269203663}
+  - component: {fileID: 1269203664}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -2966,6 +2967,23 @@ MonoBehaviour:
   movementMask:
     serializedVersion: 2
     m_Bits: 64
+--- !u!114 &1269203664
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269203656}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 312a0bd1a8980b144ac58d262c3828e5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHealth: 100
+  damage:
+    baseValue: 5
+  armor:
+    baseValue: 0
 --- !u!1 &1282657521
 GameObject:
   m_ObjectHideFlags: 0
