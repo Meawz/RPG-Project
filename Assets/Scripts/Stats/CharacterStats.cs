@@ -5,12 +5,15 @@ public class CharacterStats : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth {  get; private set; }
 
+
     public Stat damage;
     public Stat armor;
 
+    public HealthBar healthBar;
     void Awake()
     {
         currentHealth = maxHealth;
+        healthBar.SetMaxHealth(maxHealth);
     }
 
     void Update()
@@ -23,6 +26,7 @@ public class CharacterStats : MonoBehaviour
 
     public void TakeDamage (int damage)
     {
+
         damage -= armor.GetValue();
         damage = Mathf.Clamp(damage, 0, int.MaxValue);
 
@@ -33,6 +37,9 @@ public class CharacterStats : MonoBehaviour
         {
             Die();
         }
+
+        healthBar.SetHealth(currentHealth);
+
     }
 
     public virtual void Die()
