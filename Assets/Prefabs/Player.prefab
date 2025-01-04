@@ -19,7 +19,7 @@ GameObject:
   - component: {fileID: 4653389113253750940}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -157,7 +157,7 @@ MonoBehaviour:
     baseValue: 40
   armor:
     baseValue: 0
-  healthBar: {fileID: 0}
+  healthBar: {fileID: 970227301014977729, guid: d1a9e68ce7b811149b2ae3e66c75c7da, type: 3}
 --- !u!114 &5445613220137671249
 MonoBehaviour:
   m_ObjectHideFlags: 0

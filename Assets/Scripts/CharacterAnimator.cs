@@ -12,20 +12,11 @@ public class CharacterAnimator : MonoBehaviour
 
     Animator animator;
 
-    public AnimatorOverrideController overrideController;
-
     // Start is called before the first frame update
     void Start()
     {
         agent = GetComponent<NavMeshAgent>();
         animator = GetComponentInChildren<Animator>();
-
-        if (overrideController == null)
-        {
-            overrideController = new AnimatorOverrideController(animator.runtimeAnimatorController);
-        }
-
-        
 
     }
 
