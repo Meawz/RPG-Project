@@ -9,13 +9,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2454514997705608292}
-  - component: {fileID: 8605265678530167733}
-  - component: {fileID: 2132004874698340185}
+  - component: {fileID: 103378766463759317}
+  - component: {fileID: 3959711035714061452}
   - component: {fileID: 2948973137097592498}
   - component: {fileID: 1071516916801979656}
+  - component: {fileID: 5273467183488389248}
+  - component: {fileID: 2502109473545440748}
   m_Layer: 0
   m_Name: Armor of Fire
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +37,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &8605265678530167733
+--- !u!33 &103378766463759317
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,7 +45,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2878581311531613463}
   m_Mesh: {fileID: -2432090755550338912, guid: 1e6c69e9613d2234e84cebbb479b6f6f, type: 3}
---- !u!23 &2132004874698340185
+--- !u!23 &3959711035714061452
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -121,3 +123,27 @@ MonoBehaviour:
   radius: 3
   interactionTransform: {fileID: 2454514997705608292}
   item: {fileID: 11400000, guid: 23690cf98b0eb024eb90ed5a718467f6, type: 2}
+--- !u!114 &5273467183488389248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878581311531613463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8537ed8a305e8974cb7f9e9f579f80f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2502109473545440748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2878581311531613463}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73bb9a19073256243854fa43f48ac557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

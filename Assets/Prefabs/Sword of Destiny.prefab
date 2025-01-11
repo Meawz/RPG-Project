@@ -9,13 +9,15 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1380081467803348557}
-  - component: {fileID: 3934859900414575648}
-  - component: {fileID: 7415708970264545362}
+  - component: {fileID: 1388421507958122064}
+  - component: {fileID: 4568541106813065548}
   - component: {fileID: 6867007112793116571}
   - component: {fileID: 2701389947718862461}
+  - component: {fileID: 2369734186068410429}
+  - component: {fileID: 7697235851317011109}
   m_Layer: 0
   m_Name: Sword of Destiny
-  m_TagString: Untagged
+  m_TagString: Item
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +37,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3934859900414575648
+--- !u!33 &1388421507958122064
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -43,7 +45,7 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4030183801458939815}
   m_Mesh: {fileID: -2432090755550338912, guid: 83e9426db2775954cbcfc1c8f553cbfe, type: 3}
---- !u!23 &7415708970264545362
+--- !u!23 &4568541106813065548
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -63,7 +65,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8469494145858465668, guid: c0f40c9edf50e4d4e9ec3ea041659ce4, type: 3}
+  - {fileID: -8469494145858465668, guid: 83e9426db2775954cbcfc1c8f553cbfe, type: 3}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -104,8 +106,8 @@ BoxCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
+  m_Size: {x: 1, y: 2.5, z: 1}
+  m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &2701389947718862461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -121,3 +123,27 @@ MonoBehaviour:
   radius: 3
   interactionTransform: {fileID: 1380081467803348557}
   item: {fileID: 11400000, guid: 71988f9bf13b8db40ad2845a7d9e5b01, type: 2}
+--- !u!114 &2369734186068410429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030183801458939815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8537ed8a305e8974cb7f9e9f579f80f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &7697235851317011109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4030183801458939815}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73bb9a19073256243854fa43f48ac557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
