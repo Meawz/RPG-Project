@@ -42,6 +42,14 @@ public class CharacterStats : MonoBehaviour
 
     }
 
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Clamp(currentHealth, 0, int.MaxValue);
+        healthBar.SetHealth(currentHealth);
+        Debug.Log(transform.name + " healed for " + amount + " health");
+    }
+
     public virtual void Die()
     {
         // Die
