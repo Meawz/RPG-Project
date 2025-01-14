@@ -14,7 +14,7 @@ OcclusionCullingSettings:
 RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
-  m_Fog: 0
+  m_Fog: 1
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
   m_FogDensity: 0.01
@@ -23,7 +23,7 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 1
+  m_AmbientIntensity: 0
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 10304, guid: 0000000000000000f000000000000000, type: 0}
@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 512
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -173,6 +173,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4004,6 +4008,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (15)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4995,6 +5003,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5328,6 +5340,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6678,6 +6694,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -8742,7 +8762,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 267379901}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Decals
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11121,6 +11141,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (18)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -11194,6 +11218,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (17)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -17535,6 +17563,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19372,6 +19404,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -19652,6 +19688,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (23)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -22671,6 +22711,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (21)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -22732,6 +22776,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -26433,6 +26481,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -27148,6 +27200,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (22)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -33128,6 +33184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -35700,6 +35760,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38201,6 +38265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -38763,6 +38831,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (19)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -40939,6 +41011,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -45623,6 +45699,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (16)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -46763,6 +46843,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (20)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -54181,6 +54265,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -60374,6 +60462,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -61527,6 +61619,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blood (24)
       objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -62429,6 +62525,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -63701,6 +63801,10 @@ PrefabInstance:
     - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
       propertyPath: m_Name
       value: Blood (14)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7857131343339702176, guid: 22067f13911050c46b81b6426060aee5, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
