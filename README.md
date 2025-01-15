@@ -6,7 +6,7 @@ The game was mad in Unity 5. With assets made by me and some aquired from the Un
 
 # The Story
 
-You are an intruder in a cursed dungeon where tormented souls came back to life.
+You are an intruder in a cursed dungeon where tormented souls came back to life. You need to survive.
 
 # The Gameplay
 
