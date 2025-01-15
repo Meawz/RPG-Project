@@ -1201,7 +1201,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: " - Left-click to move\n - Right-click to attack/interact\n - Press I for
-    inventory\n - Press U to unequip items"
+    inventory\n - Press U to unequip items\n - A and D to move the camera"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
